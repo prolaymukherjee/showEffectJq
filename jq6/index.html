@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is javascript fundamantal</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="js/index.js"></script>
+	</head>
+
+	<body>
+	<section class="content"
+		<div class="header">
+			<h2>Jquery tutrial fundamantal</h2>
+		</div>
+		
+	<div class="main">
+	
+	    <button id="show">Show Text</button>
+	    <button id="html">Show Html</button>
+	    <button id="value">Show Value</button>
+	    
+
+		<div class="para">
+		
+		<div>
+			Name:<input type="text" id="name" value="prolay mukherjee"></input>
+		</div>
+		
+			<p id="line">
+			  Prolay Mukherjee <strong>Ratan</strong>
+			</p>
+		</div>
+		
+		
+		<script>
+			$(document).ready(function(){
+				$("#show").click(function(){
+					alert("The text is:"+$("#line").text());
+				});
+				
+				$("#html").click(function(){
+					alert("The Html is:"+$("#line").html());
+				});
+				
+				$("#value").click(function(){
+					alert("The value is:"+$("#name").val());
+				});
+				
+				
+			});
+		</script>
+		
+		
+	</div>
+		<div class="footer">
+			<h2>javascript live traing</h2>
+		</div>
+		</section>
+	</body>
+	
+</html>
